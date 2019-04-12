@@ -37,7 +37,6 @@ sns.set('talk', 'whitegrid', 'dark',
         rc={"lines.linewidth": 2, 'grid.linestyle': '--'})
 
 # histogram
-sns.distplot(x, kde=True, rug=True, bins=10)  # kde:密度近似関数表示　rug:実値の表示 bins:刻み幅
 plt.savefig("histogram.png")
 plt.show()  # グラフ表示のために追加
 
