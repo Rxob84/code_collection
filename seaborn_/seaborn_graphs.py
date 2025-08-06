@@ -18,7 +18,7 @@ x = np.random.normal(size=100)
 
 # 社内用プロキシの設定。seabornが内部でurllibを使っていたので、下記で設定。
 # https://qiita.com/gazami/items/4b42371ed831c159fb04
-proxy = request.ProxyHandler({"http": "http://proxy.mei.co.jp:8080", "https": "http://proxy.mei.co.jp:8080"})
+proxy = "XXX"
 opener = request.build_opener(proxy)
 request.install_opener(opener)
 
